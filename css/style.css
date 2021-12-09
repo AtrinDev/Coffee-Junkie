@@ -1,0 +1,178 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/Header-Banner.jpg") center/cover no-repeat fixed;
+    box-shadow: 0 -20px 30px inset rgb(0, 0, 0, 0.7);
+}
+
+.banner-center {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title {
+    font-size: 6vw;
+}
+
+.header-underline {
+    width: 300px;
+    height: 7px;
+    background-color: #F15025;
+    margin: 0 auto 20px auto;
+}
+
+.banner-btn {
+    font-size: 2vw;
+    border: 3px solid #FFF;
+    width: 15vw;
+    margin: 0 auto;
+    padding: 10px 0;
+    display: inline-block;
+    color: #FFF;
+    border-radius: 25px;
+    transition: all .2s;
+}
+
+.banner-btn:hover {
+    color: #F15025;
+    background-color: #FFF;
+    text-decoration: none;
+}
+
+.title-underline {
+    width: 150px;
+    height: 6px;
+    background-color: #F15025;
+    margin: -0 auto 20px auto;
+}
+
+#skills {
+    color: #2D3142;
+}
+
+.icons {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.skills-btn {
+    margin-bottom: 20px;
+    font-size: 20px;
+    background-color: #F15025;
+    color: #FFF;
+    transition: all .2s;
+}
+
+.skills-btn:hover {
+    background-color: #CED0CE;
+}
+
+#about {
+    background-color: #2D3142;
+}
+
+.pic {
+    height: 600px;
+    background: url("../images/About-Banner.jpg") center/cover no-repeat fixed;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/About-Banner.jpg") center/cover no-repeat fixed; */
+    /* box-shadow: 0 -20px 30px inset rgb(0, 0, 0, 0.7); */
+    border-top: 600px solid transparent;
+    border-left: 100px solid #2D3142;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-btn {
+    width: 110px;
+    font-size: 20px;
+    background-color: #F15025;
+    color: #FFF;
+    margin: 10px auto 0 auto;
+    padding: 5px 0;
+    border-radius: 4px;
+    transition: all .2s;
+}
+
+.about-btn:hover {
+    background-color: #CED0CE;
+    color: #2D3142;
+    text-decoration: none;
+}
+
+#contact {
+    background-color: whitesmoke;
+}
+
+.inputs {
+    font-size: 20px;
+}
+
+.contact-btn {
+    background-color: #353531;
+    color: #F15025;
+    font-size: 24px;
+}
+
+.contact-btn:hover {
+    background-color: #CED0CE;
+    color: #F15025;
+}
+
+#footer {
+    background-color: #353531;
+}
+
+.footer-icons {
+    font-size: 30px;
+}
+
+.footer-icons a {
+    color: deepskyblue;
+    transition: all .2s;
+    padding: 0 20px;
+}
+
+.footer-icons a:hover {
+    color: #F15025;
+}
+
+.copyrights {
+    color: #CED0CE;
+}
+
+.transparent {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-icon {
+    background-color: #F15025;
+    border: 5px solid #000;
+    padding: 20px;
+}
+
+.logo,
+.links {
+    color: #F15025!important;
+    font-style: italic;
+    font-size: 30px;
+    transition: all .2s;
+}
+
+.logo:hover,
+.links:hover {
+    color: #CED0CE!important;
+}
+
+.navs li {
+    padding: 0 10px;
+}
